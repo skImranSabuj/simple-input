@@ -1,0 +1,71 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1F2128;
+}
+
+.container {
+    padding: 10px 15px;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+    height: 326px;
+    width: 370px;
+    box-shadow: 0px 8px 15px 0px #1414141F;
+}
+
+.all-pages{
+    margin-bottom: 10px;
+}
+.page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    color: #101828;
+}
+
+input[type="checkbox"] {
+    width: 23px;
+    height: 23px;
+    border-radius: 6px;
+    cursor: pointer;
+    accent-color: #5087F8;
+    border: none;
+}
+
+input[type="checkbox"]:hover {
+    box-shadow: 0 0 0 3px #D0D5DD 6px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #D0D5DD;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="button"] {
+    display: block;
+    background-color: #FFCE22;
+    width: 100%;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
+}
+
+input[type="button"]:hover {
+    background-color: #FFD84D;
+    cursor: pointer;
+}
